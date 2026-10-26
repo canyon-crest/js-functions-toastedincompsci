@@ -61,7 +61,8 @@ function getRandomNum(max) {
   if(isNan(max) || max < 1){
     return 0;
   }
-return Math.floor(Math.random() * max) + 1;
+  return Math.floor(Math.random() * max) + 1;
+  
 }
 
 
