@@ -58,8 +58,8 @@ function myFunc() {
 
 function getRandomNum(max) {
   // Write your code here
-  if(isNan(max) || max < 1){
-    return "0";
+  if(isNaN(max) || max < 1){
+    return 0;
   }
   return Math.floor(Math.random() * max) + 1;
   
