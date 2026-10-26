@@ -61,7 +61,7 @@ function getRandomNum(max) {
   if(isNan(max) || max < 1){
     return 0;
   }
-return Math.floor(Math.random()*max) +1;
+return Math.floor(Math.random() * max) + 1
 }
 
 
@@ -108,7 +108,7 @@ function distance(x1, y1, x2, y2) {
 
 function tipCalc(bill, tipPercent) {
   // Write your code here
-  let tip = bill = (tipPercent/100);
+  let tip = bill + (tipPercent/100);
   let total = bill + tip;
   return total.toFixed(2);
 }
